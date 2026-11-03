@@ -4,20 +4,20 @@
 class Nebguard < Formula
   desc "nebguard command-line tool"
   homepage "https://github.com/nebinfra/nebguard-dist"
-  version "5.44.0"
+  version "5.44.1"
   license "Apache-2.0"
 
   on_macos do
-    url "https://github.com/nebinfra/nebguard-dist/releases/download/v5.44.0/nebguard_5.44.0_darwin_all.tar.gz"
-    sha256 "efa56ded7b2baf238b46bc506e730f05d705d94964729067e93915c345601d46"
+    url "https://github.com/nebinfra/nebguard-dist/releases/download/v5.44.1/nebguard_5.44.1_darwin_all.tar.gz"
+    sha256 "838703a2daf9383e1710be9e0db9862faf141d6166c78f7d947c4ed5c4e8c316"
   end
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/nebinfra/nebguard-dist/releases/download/v5.44.0/nebguard_5.44.0_linux_arm64.tar.gz"
-      sha256 "100e75c54389de1dbf7e8bbbbc5e5ffc6c28a12be9f7537c10266ec16fb7794c"
+      url "https://github.com/nebinfra/nebguard-dist/releases/download/v5.44.1/nebguard_5.44.1_linux_arm64.tar.gz"
+      sha256 "a286a789499e926deee3e729f538892a2395fca8fe4dd4175df8429b3452a988"
     else
-      url "https://github.com/nebinfra/nebguard-dist/releases/download/v5.44.0/nebguard_5.44.0_linux_amd64.tar.gz"
-      sha256 "9128980375c4751e93bca9c63f607279f411107979eca32a78fe8e4ae24b4651"
+      url "https://github.com/nebinfra/nebguard-dist/releases/download/v5.44.1/nebguard_5.44.1_linux_amd64.tar.gz"
+      sha256 "20fb87859d8a4f7e6cf495a6fc586522abbba5cb0fbbb17701ce8a068313238d"
     end
   end
 
