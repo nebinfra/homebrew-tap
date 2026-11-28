@@ -4,20 +4,20 @@
 class Nebcli < Formula
   desc "nebcli command-line tool"
   homepage "https://github.com/nebinfra/nebcli-dist"
-  version "6.47.0"
+  version "6.50.0"
   license "Apache-2.0"
 
   on_macos do
-    url "https://github.com/nebinfra/nebcli-dist/releases/download/v6.47.0/nebcli_6.47.0_darwin_all.tar.gz"
-    sha256 "312447e37891c39f321652afbe1868d8af3710bab1fe1925060b08bd08049327"
+    url "https://github.com/nebinfra/nebcli-dist/releases/download/v6.50.0/nebcli_6.50.0_darwin_all.tar.gz"
+    sha256 "cb293fcebb4b37e7a227a00b65987131451034db5a5b44b6e2e05cb4bafbf3e7"
   end
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/nebinfra/nebcli-dist/releases/download/v6.47.0/nebcli_6.47.0_linux_arm64.tar.gz"
-      sha256 "4f9eda24579d3f3d6624a488cf7114874c3d557b0ef353c367452ea3c358ccd4"
+      url "https://github.com/nebinfra/nebcli-dist/releases/download/v6.50.0/nebcli_6.50.0_linux_arm64.tar.gz"
+      sha256 "175c31d810297b2bba77d33ceb5bd8c8e6f410530097a0f8458f4fa43795826a"
     else
-      url "https://github.com/nebinfra/nebcli-dist/releases/download/v6.47.0/nebcli_6.47.0_linux_amd64.tar.gz"
-      sha256 "a443fcbd68752ae54910530098ccd69d24d0ccbc4b5ce56872d917ad6acd4ed4"
+      url "https://github.com/nebinfra/nebcli-dist/releases/download/v6.50.0/nebcli_6.50.0_linux_amd64.tar.gz"
+      sha256 "31e82a6539cd761ab182eb4abe651f1067298f39ff2521d01a5c3125c5a4acd9"
     end
   end
 
